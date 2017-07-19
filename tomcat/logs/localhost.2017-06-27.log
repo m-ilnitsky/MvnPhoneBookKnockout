@@ -1,0 +1,28 @@
+θών 27, 2017 4:59:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+θών 27, 2017 4:59:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+θών 27, 2017 4:59:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@43f0a652')
+θών 27, 2017 5:03:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@3cbb7096')
+θών 27, 2017 5:03:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@5f00af30')
+θών 27, 2017 5:03:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('6CC8EA64B9F4B06C3C2D659C1CE76580')
+θών 27, 2017 5:03:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('6CC8EA64B9F4B06C3C2D659C1CE76580', 'nickname', '125')
+θών 27, 2017 5:03:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: ChatServlet: Begin for session: 6CC8EA64B9F4B06C3C2D659C1CE76580
+θών 27, 2017 5:03:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: ChatServlet: Error for session: 6CC8EA64B9F4B06C3C2D659C1CE76580
+θών 27, 2017 8:07:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('6CC8EA64B9F4B06C3C2D659C1CE76580')
+θών 27, 2017 8:07:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('6CC8EA64B9F4B06C3C2D659C1CE76580', 'nickname', '125')
+θών 27, 2017 8:19:45 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+θών 27, 2017 8:19:45 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+θών 27, 2017 8:19:45 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1adb7ec6')

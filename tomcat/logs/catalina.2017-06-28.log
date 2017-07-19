@@ -1,0 +1,16 @@
+θών 28, 2017 1:22:37 AM async.Async0$1 run
+INFO: Putting AsyncThread to sleep
+θών 28, 2017 1:22:39 AM async.Async0$1 run
+INFO: Dispatching
+θών 28, 2017 1:22:39 AM async.Async0 service
+INFO: Received dispatch, completing on the worker thread.
+θών 28, 2017 1:22:39 AM async.Async0 service
+INFO: After complete called started:false
+θών 28, 2017 1:22:43 AM async.Async1$1 run
+INFO: Putting AsyncThread to sleep
+θών 28, 2017 1:22:44 AM async.Async2$1 run
+INFO: Putting AsyncThread to sleep
+θών 28, 2017 1:22:45 AM async.Async1$1 run
+INFO: Dispatching to /jsp/async/async1.jsp
+θών 28, 2017 1:22:46 AM async.Async2$1 run
+INFO: Writing data.

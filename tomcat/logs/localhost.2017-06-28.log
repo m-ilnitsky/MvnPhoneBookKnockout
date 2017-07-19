@@ -1,0 +1,108 @@
+θών 28, 2017 1:08:39 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [CookieExample] in context with path [/examples] threw exception
+java.lang.IllegalArgumentException: Cookie name may not be null or zero length
+	at javax.servlet.http.Cookie.<init>(Cookie.java:110)
+	at CookieExample.doGet(CookieExample.java:52)
+	at CookieExample.doPost(CookieExample.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+θών 28, 2017 1:09:31 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [CookieExample] in context with path [/examples] threw exception
+java.lang.IllegalArgumentException: Cookie name may not be null or zero length
+	at javax.servlet.http.Cookie.<init>(Cookie.java:110)
+	at CookieExample.doGet(CookieExample.java:52)
+	at CookieExample.doPost(CookieExample.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2549)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2538)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+θών 28, 2017 1:13:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('BA8E67963094AFE0C05AFC69B609E506')
+θών 28, 2017 1:13:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('BA8E67963094AFE0C05AFC69B609E506', 'getName', 'qwerty')
+θών 28, 2017 1:14:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('BA8E67963094AFE0C05AFC69B609E506', 'realGetName', '12345')
+θών 28, 2017 1:21:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('BA8E67963094AFE0C05AFC69B609E506', 'foo', 'bar')
+θών 28, 2017 1:21:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('BA8E67963094AFE0C05AFC69B609E506', '896', '125')
+θών 28, 2017 1:21:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('BA8E67963094AFE0C05AFC69B609E506', '777', '555')
+θών 28, 2017 1:22:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@5ef988c3')
+θών 28, 2017 1:22:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@1bfb0d78')
+θών 28, 2017 1:23:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('BA8E67963094AFE0C05AFC69B609E506', 'nickname', '159')
+θών 28, 2017 1:23:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: ChatServlet: Begin for session: BA8E67963094AFE0C05AFC69B609E506
+θών 28, 2017 1:23:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: ChatServlet: Error for session: BA8E67963094AFE0C05AFC69B609E506
+θών 28, 2017 1:24:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('2BA16500469B772E46F9252AD05C91EB')
+θών 28, 2017 1:24:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('2BA16500469B772E46F9252AD05C91EB', 'nickname', '1236987')
+θών 28, 2017 1:24:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: ChatServlet: Begin for session: 2BA16500469B772E46F9252AD05C91EB
+θών 28, 2017 1:25:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: ChatServlet: Error for session: 2BA16500469B772E46F9252AD05C91EB
+θών 28, 2017 1:56:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('2BA16500469B772E46F9252AD05C91EB')
+θών 28, 2017 1:56:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('2BA16500469B772E46F9252AD05C91EB', 'nickname', '1236987')
+θών 28, 2017 1:58:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('BA8E67963094AFE0C05AFC69B609E506')
+θών 28, 2017 1:58:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('BA8E67963094AFE0C05AFC69B609E506', 'getName', 'qwerty')
+θών 28, 2017 1:58:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('BA8E67963094AFE0C05AFC69B609E506', '896', '125')
+θών 28, 2017 1:58:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('BA8E67963094AFE0C05AFC69B609E506', 'foo', 'bar')
+θών 28, 2017 1:58:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('BA8E67963094AFE0C05AFC69B609E506', '777', '555')
+θών 28, 2017 1:58:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('BA8E67963094AFE0C05AFC69B609E506', 'nickname', '159')
+θών 28, 2017 1:58:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('BA8E67963094AFE0C05AFC69B609E506', 'realGetName', '12345')
